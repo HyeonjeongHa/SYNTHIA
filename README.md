@@ -1,6 +1,6 @@
 # SYNTHIA: Novel Concept Design with Affordance Composition
 
-[💻 System Demo](https://youtu.be/KvsOx44WdzM) | [🎬 Demo Video](https://youtu.be/KvsOx44WdzM) 
+[💻 System Demo](https://blender02.cs.illinois.edu/synthia/) | [🎬 Demo Video](https://youtu.be/KvsOx44WdzM) 
 
 This is the official PyTorch implementation for the paper ***"SYNTHIA: Novel Concept Design with Affordance Composition"***.
 ![image info](./assets/concept_figure_final.png)
