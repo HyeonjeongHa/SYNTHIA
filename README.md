@@ -5,19 +5,21 @@
 This is the official PyTorch implementation for the paper ***"SYNTHIA: Novel Concept Design with Affordance Composition"***.
 ![image info](./assets/concept_figure_final.png)
 
-#### 🚀 We will release our ontology later.
+## 📦 To be released
+- SYNTHIA Checkpoint
+- Hierarchical Concept Ontology
 
-## Abstract
+## 📋 Abstract
 Text-to-image (T2I) models enable rapid concept design, making them widely used in AI-driven design. While recent studies focus on generating semantic and stylistic variations of given design concepts, \textit{functional coherence}--the integration of multiple affordances into a single coherent concept--remains largely overlooked. In this paper, we introduce SYNTHIA, a framework for generating novel, functionally coherent designs based on desired affordances. Our approach leverages a hierarchical concept ontology that decomposes concepts into parts and affordances, serving as a crucial building block for functionally coherent design. We also develop a curriculum learning scheme based on our ontology that contrastively fine-tunes T2I models to progressively learn affordance composition while maintaining visual novelty. To elaborate, we (i) gradually increase affordance distance, guiding models from basic concept-affordance association to complex affordance compositions that integrate parts of distinct affordances into a single, coherent form, and (ii) enforce visual novelty by employing contrastive objectives to push learned representations away from existing concepts. Experimental results show that SYNTHIA outperforms state-of-the-art T2I models, demonstrating absolute gains of 25.1\% and 14.7\% for novelty and functional coherence in human evaluation, respectively. 
 
 
-## Installation 
+## 🛠️ Installation
 - Use `requirements.txt` file to setup environment.
 ```sh
 pip install -r requirements.txt
 ```
 
-## SYNTHIA
+## 🚀 SYNTHIA
 ### Curriculum Construction
 ```sh
 CUDA_VISIBLE_DEVICES=0 python gen_curriculum.py --task curriculum_gen --ontology_path PATH_TO_ONTOLOGY --affordance_path PATH_TO_AFFORDANCE --save_dir DIR_TO_SAVE --num_data NUM_DATA 
@@ -57,7 +59,7 @@ t2i_pipe.unet.load_state_dict(torch.load("YOUR_MODEL_PATH", device_map))
 
 res = t2i_pipe("YOUR TEXT PROMPT")
 ```
-### Evaluation
+### 📊  Evaluation
 1. Automatic Evaluation (Absolute Score)
 ```sh
 cd Kandinsky-3
