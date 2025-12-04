@@ -70,3 +70,12 @@ CUDA_VISIBLE_DEVICES=0 python evaluate_automatic_abs.py
 cd Kandinsky-3
 CUDA_VISIBLE_DEVICES=0 python evaluate_automatic_rel.py
 ```
+## Citation
+```
+@article{ha2025synthia,
+  title={SYNTHIA: Novel Concept Design with Affordance Composition},
+  author={Ha, Hyeonjeong and Jin, Xiaomeng and Kim, Jeonghwan and Liu, Jiateng and Wang, Zhenhailong and Nguyen, Khanh Duy and Blume, Ansel and Peng, Nanyun and Chang, Kai-Wei and Ji, Heng},
+  journal={arXiv preprint arXiv:2502.17793},
+  year={2025}
+}
+```
