@@ -1,12 +1,12 @@
 # SYNTHIA: Novel Concept Design with Affordance Composition
 
-[💻 System Demo](https://blender02.cs.illinois.edu/synthia/) | [🎬 Demo Video](https://youtu.be/KvsOx44WdzM) 
+[📄 Project Page](https://synthia-uiuc.github.io/synthia.github.io/) | [💻 System Demo](https://blender02.cs.illinois.edu/synthia/) | [🎬 Demo Video](https://youtu.be/KvsOx44WdzM) | [🤗 Model](https://huggingface.co/tracyjxm/SYNTHIA)
 
 This is the official PyTorch implementation for the paper ***"SYNTHIA: Novel Concept Design with Affordance Composition"***.
 ![image info](./assets/concept_figure_final.png)
 
 ## 📦 To be released
-- SYNTHIA Checkpoint
+- [X] SYNTHIA Checkpoint
 - Hierarchical Concept Ontology
 
 ## 📋 Abstract
